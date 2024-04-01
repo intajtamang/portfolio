@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intaj Tamang | Portfolio</title>
+  <link rel="stylesheet" href="intaj.css">
+</head>
+<body>
+
+  <!-- ------------------------------header -------------->
+<header>
+  <div class="logo-container">
+    <img src="style/logo.png" alt="Logo">
+    <h1>INTAJ</h1>
+  </div>
+  <nav>
+    <ul id="info-list">
+      <li><a href="#projects" id="projectsBtn">Projects</a></li>
+      <li><a href="#skills" id="educationBtn">Education</a></li>
+      <li><a href="#skills" id="skillsBtn">Skills</a></li>
+      <li><a href="#about" id="displayBtn">About</a></li>
+      <li><a href="http://127.0.0.1:5501/intaj.html#home">Home</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="myDisplay" class="display">
+  <h2>ABOUT ME</h2>
+  <p>Hi there! I'm Intaj Tamang.
+    I'm a passionate and creative Frontend Developer 
+    with a solid understanding of backend technologies, 
+    particularly Python. With a keen eye for design and 
+    a knack for problem-solving, I specialize in crafting 
+    engaging and user-friendly web experiences.</p>
+    <li><a href="resume.pdf" target="_blank"></a></li> <!-- Link to PDF file -->
+    <iframe src="style/resume.pdf" width="100%" height="600px" style="border: none;"></iframe> <!-- Embedded PDF -->
+  <button id="closeBtn">Close</button>
+</div>
+
+<!-- The display for skills that will appear when the link is clicked -->
+<div id="skillsDisplay" class="display">
+  <h2>SKILLS</h2>
+  <ul>
+    <li><H3>HTML</H3><P>HTML, which stands for Hyper Text Markup Language, 
+      is the standard markup language for creating Web pages. It describes
+       the structure of a Web page using a series of elements. These elements
+        label pieces of content, such as headings, paragraphs, links, and more,
+         instructing the browser on how to display them.</P></li>
+    <li><h3>CSS</h3><p>CSS, or Cascading Style Sheets, defines how HTML 
+      elements are displayed across different media. It streamlines design 
+      by controlling the layout of multiple web pages simultaneously. 
+      External stylesheets, stored in CSS files, enhance organization 
+      and reusability.</p></li>
+    <li><h3>JAVASCRIPT</h3><p>JavaScript is a lightweight, cross-platform, 
+      single-threaded, and interpreted compiled programming language. 
+      It is also known as the scripting language for webpages. 
+      It is well-known for the development of web pages, and many 
+      non-browser environments also use it.</p></li>
+    <li><h3>PYTHON</h3><p>Python is a versatile and beginner-friendly 
+      programming language known for its simplicity and readability, 
+      suitable for various applications from web development to data science.</p></li>
+    <li><h3>DJANGO</h3><p>Django is a high-level Python web framework 
+      designed for rapid development, offering built-in features like ORM, 
+      authentication, and admin interface for efficient web application creation.</p></li>
+    <li><h3>MYSQL</h3> <p>MySQL is an open-source relational database management system (RDBMS) 
+      known for its reliability, scalability, and ease of use, widely used 
+      for managing structured data in web applications.</p></li>
+    <!-- Add more skills as needed -->
+  </ul>
+  <button id="closeSkillsBtn">Close</button>
+</div>
+
+<!-- The display for education that will appear when the link is clicked -->
+<div id="educationDisplay" class="display">
+  <h2>EDUCATION</h2>
+  <ul>
+    <li><h3>SCHOOLING</h3><P>Goldhung Orchid Academy</P><p>2002-2016</p></li>
+    <li><h3>SECONDARY SCHOOL</h3><P>Reed Model College</P><p>2017-2019</p></li>
+    <li><h3>BACHELOR OF SCIENCE AND INFORMATION TECHNOLOGY</h3><P>National College of Computer Studies</P><p>2019-Present</p></li>
+  </ul>
+  <button id="closeEducationBtn">Close</button>
+</div>
+
+<!-- The display for projects that will appear when the link is clicked -->
+<div id="projectsDisplay" class="display">
+  <h2>PROJECTS</h2>
+  <ul>
+    <li><h3><a href="https://github.com/intajtamang/fyppp.git">Helmet Detection System</a></h3><p>This system was built using html, css and javascript in flask framework. 
+      Python was used as the backend program following yolo algorithm.</p></li>
+      <li><h3><a href="https://github.com/intajtamang/E-Commerce123.git">Eye-Vision Nepal</a></h3><p>This is an e-commerce website designed using html, css and php with mysql for database.</p></li>
+  </ul>
+  <button id="closeProjectsBtn">Close</button>
+</div>
+
+
+
+
+
+<!-- ------------------body --------------------->
+<main>
+  <section id="about">
+    
+    <div class="container">
+      <img src="style/pimage.png" alt="pimage">
+  </div>
+      <div class="contains">
+        <p>Hi! I'm Intaj</p>
+        <p>I Am Into Web Develop|</p>
+        <button>About Me</button>
+      </div>
+  </section>
+</main>
+
+
+<!-- -----------------footer --------------------------->
+<footer>
+  <h2>Contacts:</h2>
+  <ul class="contact-info">
+    <li><a href="https://np.linkedin.com/"><img src="style/linkedin1.png" alt=""></a></li>
+    <li><a href="https://github.com/"><img src="style/github.png" alt=""></a></li>
+    <li><a href="https://www.instagram.com/"><img src="style/instagram.png" alt=""></a></li>
+    <li><a href="https://twitter.com/?lang=en"><img src="style/twitter.png" alt=""></a></li>
+  </ul>
+  <p>&copy; 2024 Intaj Tamang</p>
+</footer>
+
+<script src="intaj.js"></script>
+</body>
+</html>

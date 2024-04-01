@@ -1,0 +1,188 @@
+body {
+    text-align: right;
+    background-color: #EEEEEE;
+    background-image: linear-gradient(rgba(224, 227, 239, 0.9), rgba(240, 240, 240, 0.9)), url("background.png" );
+    background-size: 100%;
+}
+
+
+/* -------------------------------header-------------------------- */
+
+header {
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #c7c4c4;
+}
+
+.logo-container {
+    display: flex;
+    position: relative;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.logo-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0 10px 0 10px;
+}
+
+header h1 {
+    line-height: 8px;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+#info-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#info-list li {
+    float: right;
+}
+
+#info-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#info-list li a:hover {
+    background-color: #111111;
+}
+
+.display {
+    max-width: 90%; /* Maximum width */
+    max-height: 90%; /* Maximum height */
+    width: 30%;
+    height: auto;
+    display: none;
+    position: absolute; /* Changed to fixed for better positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Add overflow-y to make it vertically scrollable */
+}
+
+#myDisplay p{
+    text-align: justify;
+}
+#myDisplay button{
+    margin: 10% 40% 0 0;
+}
+#skillsDisplay ul li{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #8b8787;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#skillsDisplay button{
+    margin: 10% 40% 0 0;
+}
+
+#educationDisplay ul li{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right:35px;
+    background-color: #8b8787;
+}
+#educationDisplay button{
+    margin: 10% 40% 0 0;
+}
+#educationDisplay h2{
+    margin-right: 35px;
+}
+
+#projectsDisplay ul li{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #8b8787;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right:35px;
+}
+#projectsDisplay button{
+    margin: 10% 40% 0 0;
+}
+
+/* ----------------------------main body--------------------------------- */
+main {
+    padding: 20px;
+    border-top: 1px solid #c7c4c4;
+    width: auto;
+    height: 60vh;
+    position:relative;
+}
+main .container{
+    position: absolute;
+}
+
+main .container img{
+    position: fixed;
+    border-radius: 50%;
+    max-height: 50%;
+    max-width: 50%;
+    box-shadow: 4px 4px #8a8888;
+    left:10%;
+}
+ 
+
+
+#about p {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#about button {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/* --------------------------------------Footer------------------------------------- */
+footer {
+    padding: 10px;
+    border-bottom: 1px solid #c7c4c4;
+    border-top: 1px solid #c7c4c4;
+    line-height: 5px;
+    width: auto;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+footer ul li img {
+    height: 30px;
+    width: 30px;
+}
